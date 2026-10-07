@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>בוחן ולמידה- יסודות מנצחים</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <img class="navbar" src="assets/elements/logos.png" alt="icon 1">
+    <img class="title" src="assets/titles/personalnfoT.png" alt="icon 1">
+<form class="userForm" id="userForm">
+
+    <div class="topInputs">
+        <!-- <input type="number" id="personalNumber" placeholder="מספר אישי" required> -->
+        <input type="text" id="fullName" placeholder="שם מלא" required>
+        
+    </div>
+
+<div class="dropdownRow">
+
+  <div class="dropdown" id="roleDropdown">
+    <div class="dropdownSelected">תפקיד</div>
+    <div class="dropdownList">
+      <div class="dropdownItem">קצין/נה</div>
+      <div class="dropdownItem">משה"ד/ית</div>
+      <div class="dropdownItem">קה"ד/ית</div>
+      <div class="dropdownItem">רמ"ד + ממ"ג</div>
+    </div>
+  </div>
+
+  <div class="dropdown" id="branchDropdown">
+    <div class="dropdownSelected">ענף</div>
+    <div class="dropdownList">
+      <div class="dropdownItem">חשיפה תקיפה</div>
+      <div class="dropdownItem">רק"ם מתקדם</div>
+    </div>
+  </div>
+
+</div>
+    <!-- הספר = כפתור -->
+    <img src="assets/buttons/startBtn.png" class="bookSubmit"  onclick="submitForm()">
+
+</form>
+
+<script src="main.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // emailjs.init("EpaOeeO37lgg5m9SS");
+</script>
+<script>  
+
+</script> 
+<style>
+    body {
+    background-image: url("assets/backgrounds/plainBg.png");
+}
+</style>
+</html>
